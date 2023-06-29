@@ -1,0 +1,54 @@
+.capa{
+height: 95vh;
+background-color: #D9490B;
+background-image: url(IMAGEM/Frame\ 1.png);
+background-repeat: no-repeat;
+background-position: right;
+
+}
+.principal{
+    display: flex;
+}
+.cover{
+    height: 95vh;
+    margin: 0;
+}
+.logo{
+    height: 60px;
+    padding: 10px;
+}
+.textos{
+padding: 30px;
+font-size: 30px;
+color: white;
+width: 40vw;
+font-family: 'Arial', sans-serif;
+}
+.textos h1{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.textos button{
+    width: 240px;
+    padding: 20px 0px;
+    color: #F06C00;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.textos button:active {
+    background-color: #F06C00; /* Altere para a cor desejada */
+    box-shadow: none; /* Remova a sombra ou ajuste conforme necessário */
+}
+.textos button:hover {
+    background-color: #000000; /* Altere para a cor desejada */
+    color: #F06C00;
+}
+body{
+    margin: 0%;
+}
